@@ -1,0 +1,13 @@
+public boolean squirrelPlay(int temp, boolean isSummer) {
+  //60-90 not summer
+  // 60-100 if summer
+  
+  if(temp>=60 && temp <= 90 && isSummer == false) {
+    return true;
+    
+  } else if (temp>=60 && temp <= 100 && isSummer == true) {
+    return true;
+  } else {
+    return false;
+  }
+}
