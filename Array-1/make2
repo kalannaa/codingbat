@@ -1,0 +1,17 @@
+public int[] make2(int[] a, int[] b) {
+  int[] myArray = new int[2];
+  
+  if(a.length > 1) {
+    for(int i=0; i<a.length && i<myArray.length; i++) {
+      myArray[i] = a[i];
+    }
+  } else if (a.length == 1) {
+    myArray[0] = a[0];
+    myArray[1] = b[0];
+  } else {
+    for(int j=0; j<b.length && j < myArray.length; j++) {
+      myArray[j] = b[j];
+    }
+  }
+  return myArray;
+}
