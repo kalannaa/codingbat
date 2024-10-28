@@ -1,0 +1,14 @@
+public int sumLimit(int a, int b) {
+  int c = a+b;
+  String sum = String.valueOf(c);
+  String strA = String.valueOf(a);
+  
+  int lenSum = sum.length();
+  int lenStrA = strA.length();
+
+  
+  if (lenSum <=lenStrA) {
+    return a+b;
+  }
+return a;
+}
