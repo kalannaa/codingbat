@@ -1,0 +1,8 @@
+public int maxTriple(int[] nums) {
+
+    int digit = Math.max(nums[0],
+    Math.max(nums[(nums.length+1)/2 - 1],
+    nums[nums.length-1]));
+    
+  return digit;
+}
