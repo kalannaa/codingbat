@@ -1,0 +1,9 @@
+public int[] makeMiddle(int[] nums) {
+  //cut array in half, get half-1 and half+1 elements as new{0,1}
+  
+  int[] nums2 = Arrays.copyOfRange(nums,0, nums.length/2);
+  int[] nums3 = Arrays.copyOfRange(nums, nums.length/2, nums.length);
+  
+  int[] result = {nums2[nums2.length-1], nums3[0]};
+  return result;
+}
