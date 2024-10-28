@@ -1,0 +1,8 @@
+public int[] rotateLeft3(int[] nums) {
+  int a = nums[0];
+  int b = nums[1];
+  int c = nums[2];
+  
+  int[] array = {b,c,a};
+  return array;
+}
