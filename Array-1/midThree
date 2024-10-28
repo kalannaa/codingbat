@@ -1,0 +1,9 @@
+public int[] midThree(int[] nums) {
+
+  int[] result = {
+    nums[(nums.length+1)/2 - 2],
+    nums[(nums.length+1)/2 - 1],
+    nums[(nums.length+1)/2]
+  };
+  return result;
+}
